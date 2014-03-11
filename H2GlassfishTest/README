@@ -1,0 +1,25 @@
+1. Install Eclipse Kepler
+2. Install JDK 1.7.0 (32-bit)
+3. Install Glassfish 4.0 (32-bit)
+4. Download H2 (32-bit)
+
+4. Create a new Dynamic Web Project 
+	4.1 Install New Extension (GlassFish Tools - Oracle)
+	4.2 Create a new runtime
+		4.2.1 Select GlassFish 4.0 Runtime
+		4.2.2 Select the jdk and the directory of glassfish 4.0
+	4.3 Dynamic web module version 3.1
+	4.4 Default Configuration for GlassFish 4.0
+
+5. Delete the project
+6. Import project from Git
+	6.1. Clone URL
+	6.2. Import existing projects
+
+7. Run as Maven Build...
+	7.1 Goals: package
+	7.2 Set the JDK
+8. Check for Errors under the Problems tab
+	8.1 You may have to update the .classpath file
+
+9. Run on Server
